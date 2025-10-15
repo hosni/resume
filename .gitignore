@@ -1,4 +1,7 @@
 ### TeX ###
+/dist/
+resume.pdf
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -18,7 +21,6 @@
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
-<<<<<<< HEAD
 
 ### Editor ###
 ## Vim & Emacs temp files:
