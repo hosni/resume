@@ -37,6 +37,10 @@ jobs:
             biblatex
             texliveonfly
 
+      - name: Setup tmate session
+        if: ${{ failure() }}
+        uses: mxschmitt/action-tmate@v3
+
       - name: Build Resume PDF
         run: texliveonfly -c xelatex resume.tex
 
